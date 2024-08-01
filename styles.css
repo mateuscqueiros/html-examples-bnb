@@ -4,6 +4,18 @@
 
 /* 0 0 0 0 */
 
+article {
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
 p+p {
   color: orange;
 }
@@ -18,4 +30,8 @@ p:active {
 
 p:last-child {
   color: green;
+}
+
+img {
+  width: 500px;
 }
