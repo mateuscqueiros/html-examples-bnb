@@ -1,0 +1,56 @@
+body {
+  font-family: "Inter";
+}
+
+/* 0 0 0 0 */
+
+article {
+  font-size: 32px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
+p + p {
+  color: orange;
+}
+
+p ~ p {
+  color: blue;
+}
+
+p:active {
+  color: red;
+}
+
+p:last-child {
+  color: green;
+}
+
+img {
+  width: 500px;
+}
+
+li:nth-child(-n + 3) {
+  color: white;
+  background-color: black;
+}
+
+p::before {
+  content: "Hello!";
+  height: 100px;
+  width: 100px;
+}
+
+.box-model {
+  height: 300px;
+  width: 300px;
+  background-color: gray;
+
+  padding: 10px 20px 32px;
+}
