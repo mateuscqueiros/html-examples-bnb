@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+
+/* *= / ^= / $= / ~= */
+p[class~="color-red"] {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: cyan;
+}
+
+a:hover {
+  color: pink;
+}
+
+a::before {
+  content: 'Link: '
+}
+
+a::after {
+  content: ' ->'
+}
