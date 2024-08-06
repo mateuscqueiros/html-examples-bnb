@@ -1,0 +1,52 @@
+/* Estilizando o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Estilizando o cabeçalho */
+header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Estilizando o conteúdo principal */
+main {
+  padding: 2em;
+  background-color: white;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando as seções */
+section {
+  margin-bottom: 1.5em;
+}
+
+/* Estilizando os títulos das seções */
+h2 {
+  color: #4caf50;
+}
+
+/* Estilizando a lista de hobbies */
+ul {
+  list-style-type: square;
+  padding-left: 1.5em;
+}
+
+/* Estilizando o rodapé */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #4caf50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

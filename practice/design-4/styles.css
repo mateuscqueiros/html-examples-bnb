@@ -1,0 +1,82 @@
+/* Estilizando o corpo da página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Estilizando o contêiner principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando o cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Estilizando a seção de perfil */
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h2 {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+.bio {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Estilizando a seção de detalhes */
+.details {
+  margin-bottom: 20px;
+}
+
+.details h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details li {
+  margin-bottom: 10px;
+}
+
+.details li strong {
+  color: #000;
+}
+
+/* Estilizando o rodapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+}
