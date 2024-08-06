@@ -1,6 +1,10 @@
 body {
-  font-family: system-ui;
+  font-family: Inter, sans-serif;
+  line-height: 2em;
+  text-align: justify;
+  font-weight: 400;
   margin: 0;
+  padding: 1em;
 }
 
 /* *= / ^= / $= / ~= */
